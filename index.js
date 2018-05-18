@@ -16,7 +16,7 @@ let MyComponent = withStore(
   class extends React.Component<StoreProps & Props> {
     render() {
       const { store } = this.props;
-      const b = store.get('a');
+      const b = store.get('newissues');
       return (
         <div>
           <button onClick={() => store.get('newissues')}>Test</button>
@@ -28,6 +28,6 @@ let MyComponent = withStore(
 
 let MyComponent2 = withStore(({ store }) => (
   <div>
-    <button onClick={() => store.get('newissues')}>Test</button>
+    <button onClick={() => store.get('a')}>Test</button>
   </div>
 ));
