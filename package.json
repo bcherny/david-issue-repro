@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "flow-bin": "^0.72.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "rxjs": "^6.1.0",
+    "undux": "^4.4.0"
+  }
+}
